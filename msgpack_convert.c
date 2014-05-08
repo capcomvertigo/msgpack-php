@@ -557,7 +557,13 @@ int msgpack_convert_object(zval *return_value, zval *tpl, zval **value)
             ht = HASH_OF(*value);
             ret = HASH_OF(return_value);
 
-            num = zend_hash_num_elements(ht);
+			if (ret == NULL)
+			{
+				ALLOC_HASHTABLE(ret);
+				zend_hash_init(ret, 0, NULL, NULL, 0);
+			}
+            
+			num = zend_hash_num_elements(ht);
             if (num <= 0)
             {
                 zval_ptr_dtor(value);

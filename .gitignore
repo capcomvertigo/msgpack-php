@@ -30,3 +30,5 @@ tests/*.sh
 missing
 mkinstalldirs
 run-tests.php
+xcode/Intermediates
+configure.lineno
