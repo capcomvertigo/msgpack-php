@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>20C57A14-1D91-4BC0-9AAE-5CECDEC9558A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>msgpack</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B26A44D1-FE7F-4430-9991-176CBE80E12F</key>
+		<string>ssh://srv00.neverwhere.net/scm/git/flw/labs/pecl/php-pecl-msgpack.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>msgpack.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B26A44D1-FE7F-4430-9991-176CBE80E12F</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://srv00.neverwhere.net/scm/git/flw/labs/pecl/php-pecl-msgpack.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B26A44D1-FE7F-4430-9991-176CBE80E12F</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B26A44D1-FE7F-4430-9991-176CBE80E12F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>msgpack-php</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,884 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5233D825191C1F0700043485 /* msgpack_class.c in Sources */ = {isa = PBXBuildFile; fileRef = 5233D816191C1F0700043485 /* msgpack_class.c */; };
+		5233D826191C1F0700043485 /* msgpack_class.h in Headers */ = {isa = PBXBuildFile; fileRef = 5233D817191C1F0700043485 /* msgpack_class.h */; };
+		5233D827191C1F0700043485 /* msgpack_convert.c in Sources */ = {isa = PBXBuildFile; fileRef = 5233D818191C1F0700043485 /* msgpack_convert.c */; };
+		5233D828191C1F0700043485 /* msgpack_convert.h in Headers */ = {isa = PBXBuildFile; fileRef = 5233D819191C1F0700043485 /* msgpack_convert.h */; };
+		5233D829191C1F0700043485 /* msgpack_errors.h in Headers */ = {isa = PBXBuildFile; fileRef = 5233D81A191C1F0700043485 /* msgpack_errors.h */; };
+		5233D82A191C1F0700043485 /* msgpack_pack.c in Sources */ = {isa = PBXBuildFile; fileRef = 5233D81B191C1F0700043485 /* msgpack_pack.c */; };
+		5233D82B191C1F0700043485 /* msgpack_pack.h in Headers */ = {isa = PBXBuildFile; fileRef = 5233D81C191C1F0700043485 /* msgpack_pack.h */; };
+		5233D82C191C1F0700043485 /* msgpack_unpack.c in Sources */ = {isa = PBXBuildFile; fileRef = 5233D81D191C1F0700043485 /* msgpack_unpack.c */; };
+		5233D82D191C1F0700043485 /* msgpack_unpack.h in Headers */ = {isa = PBXBuildFile; fileRef = 5233D81E191C1F0700043485 /* msgpack_unpack.h */; };
+		5233D82E191C1F0700043485 /* msgpack.c in Sources */ = {isa = PBXBuildFile; fileRef = 5233D81F191C1F0700043485 /* msgpack.c */; };
+		5233D82F191C1F0700043485 /* php_msgpack.h in Headers */ = {isa = PBXBuildFile; fileRef = 5233D821191C1F0700043485 /* php_msgpack.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		521C4E341850D1330093F333 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.m4";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# $(M4)\n";
+		};
+		521C4E361850D1A00093F333 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = sourcecode.yacc;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# $(YACC)\n";
+		};
+		52E4D1A318EE038A00330BD9 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = sourcecode.yacc;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# $(YACC)\n";
+		};
+		52E4D1A418EE038A00330BD9 /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			filePatterns = "*.m4";
+			fileType = pattern.proxy;
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# $(M4)\n";
+		};
+/* End PBXBuildRule section */
+
+/* Begin PBXContainerItemProxy section */
+		5233D80E191C056900043485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 528EA7521763BF43008713E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5233D806191C035D00043485;
+			remoteInfo = phpize;
+		};
+		5233D810191C057000043485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 528EA7521763BF43008713E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5233D80A191C049500043485;
+			remoteInfo = configure;
+		};
+		5233D814191C065C00043485 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 528EA7521763BF43008713E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5233D80A191C049500043485;
+			remoteInfo = configure;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5233D816191C1F0700043485 /* msgpack_class.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = msgpack_class.c; sourceTree = "<group>"; };
+		5233D817191C1F0700043485 /* msgpack_class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = msgpack_class.h; sourceTree = "<group>"; };
+		5233D818191C1F0700043485 /* msgpack_convert.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = msgpack_convert.c; sourceTree = "<group>"; };
+		5233D819191C1F0700043485 /* msgpack_convert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = msgpack_convert.h; sourceTree = "<group>"; };
+		5233D81A191C1F0700043485 /* msgpack_errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = msgpack_errors.h; sourceTree = "<group>"; };
+		5233D81B191C1F0700043485 /* msgpack_pack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = msgpack_pack.c; sourceTree = "<group>"; };
+		5233D81C191C1F0700043485 /* msgpack_pack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = msgpack_pack.h; sourceTree = "<group>"; };
+		5233D81D191C1F0700043485 /* msgpack_unpack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = msgpack_unpack.c; sourceTree = "<group>"; };
+		5233D81E191C1F0700043485 /* msgpack_unpack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = msgpack_unpack.h; sourceTree = "<group>"; };
+		5233D81F191C1F0700043485 /* msgpack.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = msgpack.c; sourceTree = "<group>"; };
+		5233D820191C1F0700043485 /* msgpack.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = msgpack.php; sourceTree = "<group>"; };
+		5233D821191C1F0700043485 /* php_msgpack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = php_msgpack.h; sourceTree = "<group>"; };
+		5233D822191C1F0700043485 /* run-tests.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = "run-tests.php"; sourceTree = "<group>"; };
+		5233D823191C1F0700043485 /* test_normal.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = test_normal.php; sourceTree = "<group>"; };
+		5233D824191C1F0700043485 /* test_streaming.php */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.php; path = test_streaming.php; sourceTree = "<group>"; };
+		5233D831191C1F1900043485 /* pack_define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pack_define.h; sourceTree = "<group>"; };
+		5233D832191C1F1900043485 /* pack_template.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pack_template.h; sourceTree = "<group>"; };
+		5233D833191C1F1900043485 /* sysdep.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sysdep.h; sourceTree = "<group>"; };
+		5233D834191C1F1900043485 /* unpack_define.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = unpack_define.h; sourceTree = "<group>"; };
+		5233D835191C1F1900043485 /* unpack_template.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = unpack_template.h; sourceTree = "<group>"; };
+		5233D836191C1F1900043485 /* version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = version.h; sourceTree = "<group>"; };
+		528EA75A1763BF43008713E0 /* msgpack.so */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = msgpack.so; sourceTree = BUILT_PRODUCTS_DIR; };
+		528EA7651763C05B008713E0 /* config.m4 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config.m4; sourceTree = "<group>"; };
+		528EA7661763C05C008713E0 /* configure.in */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = configure.in; sourceTree = "<group>"; };
+		528EA7671763C05C008713E0 /* package.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = package.xml; sourceTree = "<group>"; };
+		528EA76A1763C05C008713E0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		52B61DA517DBA4FD007BE528 /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		52B61DA617DBA4FD007BE528 /* config.h.in */ = {isa = PBXFileReference; lastKnownFileType = text; path = config.h.in; sourceTree = "<group>"; };
+		52E4D1A818EE038A00330BD9 /* msgpack copy.so */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = "msgpack copy.so"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		528EA7571763BF43008713E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E4D19518EE038A00330BD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5233D830191C1F1900043485 /* msgpack */ = {
+			isa = PBXGroup;
+			children = (
+				5233D831191C1F1900043485 /* pack_define.h */,
+				5233D832191C1F1900043485 /* pack_template.h */,
+				5233D833191C1F1900043485 /* sysdep.h */,
+				5233D834191C1F1900043485 /* unpack_define.h */,
+				5233D835191C1F1900043485 /* unpack_template.h */,
+				5233D836191C1F1900043485 /* version.h */,
+			);
+			path = msgpack;
+			sourceTree = "<group>";
+		};
+		52868411177256BD0077C0DD /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		528EA7511763BF43008713E0 = {
+			isa = PBXGroup;
+			children = (
+				5233D81F191C1F0700043485 /* msgpack.c */,
+				5233D816191C1F0700043485 /* msgpack_class.c */,
+				5233D817191C1F0700043485 /* msgpack_class.h */,
+				5233D818191C1F0700043485 /* msgpack_convert.c */,
+				5233D819191C1F0700043485 /* msgpack_convert.h */,
+				5233D81A191C1F0700043485 /* msgpack_errors.h */,
+				5233D81B191C1F0700043485 /* msgpack_pack.c */,
+				5233D81C191C1F0700043485 /* msgpack_pack.h */,
+				5233D81D191C1F0700043485 /* msgpack_unpack.c */,
+				5233D81E191C1F0700043485 /* msgpack_unpack.h */,
+				5233D830191C1F1900043485 /* msgpack */,
+				5233D820191C1F0700043485 /* msgpack.php */,
+				5233D821191C1F0700043485 /* php_msgpack.h */,
+				5233D822191C1F0700043485 /* run-tests.php */,
+				5233D823191C1F0700043485 /* test_normal.php */,
+				5233D824191C1F0700043485 /* test_streaming.php */,
+				52B61DA517DBA4FD007BE528 /* config.h */,
+				52B61DA617DBA4FD007BE528 /* config.h.in */,
+				528EA7651763C05B008713E0 /* config.m4 */,
+				528EA7661763C05C008713E0 /* configure.in */,
+				528EA76A1763C05C008713E0 /* README.md */,
+				528EA7671763C05C008713E0 /* package.xml */,
+				52868411177256BD0077C0DD /* Libraries */,
+				528EA75B1763BF43008713E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		528EA75B1763BF43008713E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				528EA75A1763BF43008713E0 /* msgpack.so */,
+				52E4D1A818EE038A00330BD9 /* msgpack copy.so */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		528EA7581763BF43008713E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5233D82D191C1F0700043485 /* msgpack_unpack.h in Headers */,
+				5233D82B191C1F0700043485 /* msgpack_pack.h in Headers */,
+				5233D826191C1F0700043485 /* msgpack_class.h in Headers */,
+				5233D829191C1F0700043485 /* msgpack_errors.h in Headers */,
+				5233D82F191C1F0700043485 /* php_msgpack.h in Headers */,
+				5233D828191C1F0700043485 /* msgpack_convert.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E4D19618EE038A00330BD9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXLegacyTarget section */
+		5233D806191C035D00043485 /* phpize */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--$(ACTION)";
+			buildConfigurationList = 5233D807191C035D00043485 /* Build configuration list for PBXLegacyTarget "phpize" */;
+			buildPhases = (
+			);
+			buildToolPath = /opt/local/bin/phpize;
+			buildWorkingDirectory = "$(SRCROOT)";
+			dependencies = (
+			);
+			name = phpize;
+			passBuildSettingsInEnvironment = 1;
+			productName = phpize;
+		};
+		5233D80A191C049500043485 /* configure */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(SRCROOT)/configure --with-msgpack";
+			buildConfigurationList = 5233D80B191C049500043485 /* Build configuration list for PBXLegacyTarget "configure" */;
+			buildPhases = (
+			);
+			buildToolPath = /opt/local/bin/bash;
+			buildWorkingDirectory = "$(SRCROOT)";
+			dependencies = (
+				5233D80F191C056900043485 /* PBXTargetDependency */,
+			);
+			name = configure;
+			passBuildSettingsInEnvironment = 1;
+			productName = configure;
+		};
+		52EB1AD01774C9B70081BFED /* PHP Module - make */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = 52EB1AD41774C9B70081BFED /* Build configuration list for PBXLegacyTarget "PHP Module - make" */;
+			buildPhases = (
+			);
+			buildToolPath = make;
+			buildWorkingDirectory = "$(SRCROOT)";
+			dependencies = (
+				5233D811191C057000043485 /* PBXTargetDependency */,
+			);
+			name = "PHP Module - make";
+			passBuildSettingsInEnvironment = 1;
+			productName = "flwcore-make";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		528EA7591763BF43008713E0 /* PHP Module */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 528EA75E1763BF43008713E0 /* Build configuration list for PBXNativeTarget "PHP Module" */;
+			buildPhases = (
+				528EA7561763BF43008713E0 /* Sources */,
+				528EA7571763BF43008713E0 /* Frameworks */,
+				528EA7581763BF43008713E0 /* Headers */,
+			);
+			buildRules = (
+				521C4E361850D1A00093F333 /* PBXBuildRule */,
+				521C4E341850D1330093F333 /* PBXBuildRule */,
+			);
+			dependencies = (
+				5233D815191C065C00043485 /* PBXTargetDependency */,
+			);
+			name = "PHP Module";
+			productName = flwcore;
+			productReference = 528EA75A1763BF43008713E0 /* msgpack.so */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+		52E4D18A18EE038A00330BD9 /* C++98 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52E4D1A518EE038A00330BD9 /* Build configuration list for PBXNativeTarget "C++98" */;
+			buildPhases = (
+				52E4D18B18EE038A00330BD9 /* Sources */,
+				52E4D19518EE038A00330BD9 /* Frameworks */,
+				52E4D19618EE038A00330BD9 /* Headers */,
+			);
+			buildRules = (
+				52E4D1A318EE038A00330BD9 /* PBXBuildRule */,
+				52E4D1A418EE038A00330BD9 /* PBXBuildRule */,
+			);
+			dependencies = (
+			);
+			name = "C++98";
+			productName = flwcore;
+			productReference = 52E4D1A818EE038A00330BD9 /* msgpack copy.so */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		528EA7521763BF43008713E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Mark Holtz";
+			};
+			buildConfigurationList = 528EA7551763BF43008713E0 /* Build configuration list for PBXProject "msgpack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 528EA7511763BF43008713E0;
+			productRefGroup = 528EA75B1763BF43008713E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				528EA7591763BF43008713E0 /* PHP Module */,
+				52E4D18A18EE038A00330BD9 /* C++98 */,
+				52EB1AD01774C9B70081BFED /* PHP Module - make */,
+				5233D806191C035D00043485 /* phpize */,
+				5233D80A191C049500043485 /* configure */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		528EA7561763BF43008713E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5233D82E191C1F0700043485 /* msgpack.c in Sources */,
+				5233D82C191C1F0700043485 /* msgpack_unpack.c in Sources */,
+				5233D827191C1F0700043485 /* msgpack_convert.c in Sources */,
+				5233D825191C1F0700043485 /* msgpack_class.c in Sources */,
+				5233D82A191C1F0700043485 /* msgpack_pack.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52E4D18B18EE038A00330BD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5233D80F191C056900043485 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5233D806191C035D00043485 /* phpize */;
+			targetProxy = 5233D80E191C056900043485 /* PBXContainerItemProxy */;
+		};
+		5233D811191C057000043485 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5233D80A191C049500043485 /* configure */;
+			targetProxy = 5233D810191C057000043485 /* PBXContainerItemProxy */;
+		};
+		5233D815191C065C00043485 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5233D80A191C049500043485 /* configure */;
+			targetProxy = 5233D814191C065C00043485 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5233D808191C035D00043485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PHP_AUTOCONF = /opt/local/bin/autoconf;
+				PHP_AUTOHEADER = /opt/local/bin/autoheader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5233D809191C035D00043485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PHP_AUTOCONF = /opt/local/bin/autoconf;
+				PHP_AUTOHEADER = /opt/local/bin/autoheader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5233D80C191C049500043485 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				DEBUGGING_SYMBOLS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PATH = "/opt/local/bin:/usr/bin:/bin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5233D80D191C049500043485 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PATH = "/opt/local/bin:/usr/bin:/bin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		528EA75C1763BF43008713E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_STATIC_ANALYZER_MODE = deep;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"HAVE_CONFIG_H=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/opt/local/include/php54,
+					/opt/local/include/php54/main,
+					/opt/local/include/php54/TSRM,
+					/opt/local/include/php54/Zend,
+					/opt/local/include/php54/ext,
+					/opt/local/include/php54/ext/date/lib,
+					/opt/local/include,
+					MurmurHash,
+				);
+				INSTALL_PATH = "$(SRCROOT)/modules-xcode";
+				LIBRARY_SEARCH_PATHS = /opt/local/lib;
+				MACH_O_TYPE = mh_dylib;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				PRESERVE_DEAD_CODE_INITS_AND_TERMS = YES;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SDKROOT = macosx;
+				SKIP_INSTALL = NO;
+			};
+			name = Debug;
+		};
+		528EA75D1763BF43008713E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_STATIC_ANALYZER_MODE = shallow;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "HAVE_CONFIG_H=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/opt/local/include/php54,
+					/opt/local/include/php54/main,
+					/opt/local/include/php54/TSRM,
+					/opt/local/include/php54/Zend,
+					/opt/local/include/php54/ext,
+					/opt/local/include/php54/ext/date/lib,
+					/opt/local/include,
+					MurmurHash,
+				);
+				INSTALL_PATH = "$(SRCROOT)/modules-xcode";
+				LIBRARY_SEARCH_PATHS = /opt/local/lib;
+				MACH_O_TYPE = mh_dylib;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRESERVE_DEAD_CODE_INITS_AND_TERMS = YES;
+				SCAN_ALL_SOURCE_FILES_FOR_INCLUDES = YES;
+				SDKROOT = macosx;
+				SKIP_INSTALL = NO;
+			};
+			name = Release;
+		};
+		528EA75F1763BF43008713E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = /opt/local/bin/php54;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_WARN_CXX0X_EXTENSIONS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = "$(SRCROOT)";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_EXTENSION = so;
+				EXECUTABLE_PREFIX = "";
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"HAVE_CONFIG_H=1",
+					"$(inherited)",
+				);
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				HEADER_SEARCH_PATHS = (
+					"cpp-netlib-uri/src",
+					MurmurHash,
+					/opt/local/include/php54/php/main,
+					/opt/local/include/php54/php/TSRM,
+					/opt/local/include/php54/php/Zend,
+					/opt/local/include/php54/php/ext/date/lib,
+					/opt/local/include/php54/php/ext,
+					"/opt/local/include/php54/php/**",
+					/opt/local/include,
+				);
+				INSTALL_PATH = "/modules-xcode";
+				KEEP_PRIVATE_EXTERNS = YES;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACH_O_TYPE = mh_bundle;
+				OBJROOT = "$(SYMROOT)/Intermediates";
+				OTHER_LDFLAGS = (
+					"-export-dynamic",
+					"-undefined",
+					warning,
+					"-flat_namespace",
+				);
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = msgpack;
+				PUBLIC_HEADERS_FOLDER_PATH = /opt/local/include;
+				SYMROOT = "$(SRCROOT)/modules-xcode";
+				USER_HEADER_SEARCH_PATHS = MurmurHash;
+			};
+			name = Debug;
+		};
+		528EA7601763BF43008713E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = /opt/local/bin/php54;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_WARN_CXX0X_EXTENSIONS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
+				DEPLOYMENT_LOCATION = YES;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = "$(SRCROOT)";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_EXTENSION = so;
+				EXECUTABLE_PREFIX = "";
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"HAVE_CONFIG_H=1",
+					"$(inherited)",
+				);
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				HEADER_SEARCH_PATHS = (
+					"cpp-netlib-uri/src",
+					MurmurHash,
+					/opt/local/include/php54/php/main,
+					/opt/local/include/php54/php/TSRM,
+					/opt/local/include/php54/php/Zend,
+					/opt/local/include/php54/php/ext/date/lib,
+					/opt/local/include/php54/php/ext,
+					"/opt/local/include/php54/php/**",
+					/opt/local/include,
+				);
+				INSTALL_PATH = "/modules-xcode";
+				KEEP_PRIVATE_EXTERNS = YES;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACH_O_TYPE = mh_bundle;
+				OBJROOT = "$(SYMROOT)/Intermediates";
+				OTHER_LDFLAGS = (
+					"-export-dynamic",
+					"-undefined",
+					warning,
+					"-flat_namespace",
+				);
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = msgpack;
+				PUBLIC_HEADERS_FOLDER_PATH = /opt/local/include;
+				SYMROOT = "$(SRCROOT)/modules-xcode";
+				USER_HEADER_SEARCH_PATHS = MurmurHash;
+			};
+			name = Release;
+		};
+		52E4D1A618EE038A00330BD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = /opt/local/bin/php54;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++98";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CXX0X_EXTENSIONS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
+				DEPLOYMENT_LOCATION = NO;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = "$(SRCROOT)/build-ext";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_EXTENSION = so;
+				EXECUTABLE_PREFIX = "";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"HAVE_CONFIG_H=1",
+					"$(inherited)",
+				);
+				GCC_VERSION = "";
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				HEADER_SEARCH_PATHS = (
+					"cpp-netlib-uri/src",
+					MurmurHash,
+					/opt/local/include/php54/php/main,
+					/opt/local/include/php54/php/TSRM,
+					/opt/local/include/php54/php/Zend,
+					/opt/local/include/php54/php/ext/date/lib,
+					/opt/local/include/php54/php/ext,
+					"/opt/local/include/php54/php/**",
+					/opt/local/include,
+				);
+				INSTALL_PATH = "/modules-xcode";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACH_O_TYPE = mh_bundle;
+				OBJROOT = "$(SYMROOT)/Intermediates";
+				OTHER_LDFLAGS = (
+					"-export-dynamic",
+					"-undefined",
+					warning,
+					"-flat_namespace",
+				);
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "msgpack copy";
+				PUBLIC_HEADERS_FOLDER_PATH = /opt/local/include;
+				SYMROOT = "$(SRCROOT)/modules-xcode";
+				USER_HEADER_SEARCH_PATHS = MurmurHash;
+			};
+			name = Debug;
+		};
+		52E4D1A718EE038A00330BD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = /opt/local/bin/php54;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++98";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CXX0X_EXTENSIONS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)";
+				DEPLOYMENT_LOCATION = NO;
+				DEPLOYMENT_POSTPROCESSING = YES;
+				DSTROOT = "$(SRCROOT)/build-ext";
+				DYLIB_COMPATIBILITY_VERSION = "";
+				DYLIB_CURRENT_VERSION = "";
+				EXECUTABLE_EXTENSION = so;
+				EXECUTABLE_PREFIX = "";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"HAVE_CONFIG_H=1",
+					"$(inherited)",
+				);
+				GCC_VERSION = "";
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				HEADER_SEARCH_PATHS = (
+					"cpp-netlib-uri/src",
+					MurmurHash,
+					/opt/local/include/php54/php/main,
+					/opt/local/include/php54/php/TSRM,
+					/opt/local/include/php54/php/Zend,
+					/opt/local/include/php54/php/ext/date/lib,
+					/opt/local/include/php54/php/ext,
+					"/opt/local/include/php54/php/**",
+					/opt/local/include,
+				);
+				INSTALL_PATH = "/modules-xcode";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACH_O_TYPE = mh_bundle;
+				OBJROOT = "$(SYMROOT)/Intermediates";
+				OTHER_LDFLAGS = (
+					"-export-dynamic",
+					"-undefined",
+					warning,
+					"-flat_namespace",
+				);
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "msgpack copy";
+				PUBLIC_HEADERS_FOLDER_PATH = /opt/local/include;
+				SYMROOT = "$(SRCROOT)/modules-xcode";
+				USER_HEADER_SEARCH_PATHS = MurmurHash;
+			};
+			name = Release;
+		};
+		52EB1AD11774C9B70081BFED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				DEBUGGING_SYMBOLS = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "msgpack-make";
+			};
+			name = Debug;
+		};
+		52EB1AD21774C9B70081BFED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "msgpack-make";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5233D807191C035D00043485 /* Build configuration list for PBXLegacyTarget "phpize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5233D808191C035D00043485 /* Debug */,
+				5233D809191C035D00043485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5233D80B191C049500043485 /* Build configuration list for PBXLegacyTarget "configure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5233D80C191C049500043485 /* Debug */,
+				5233D80D191C049500043485 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		528EA7551763BF43008713E0 /* Build configuration list for PBXProject "msgpack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528EA75C1763BF43008713E0 /* Debug */,
+				528EA75D1763BF43008713E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		528EA75E1763BF43008713E0 /* Build configuration list for PBXNativeTarget "PHP Module" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528EA75F1763BF43008713E0 /* Debug */,
+				528EA7601763BF43008713E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		52E4D1A518EE038A00330BD9 /* Build configuration list for PBXNativeTarget "C++98" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52E4D1A618EE038A00330BD9 /* Debug */,
+				52E4D1A718EE038A00330BD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		52EB1AD41774C9B70081BFED /* Build configuration list for PBXLegacyTarget "PHP Module - make" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52EB1AD11774C9B70081BFED /* Debug */,
+				52EB1AD21774C9B70081BFED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 528EA7521763BF43008713E0 /* Project object */;
+}

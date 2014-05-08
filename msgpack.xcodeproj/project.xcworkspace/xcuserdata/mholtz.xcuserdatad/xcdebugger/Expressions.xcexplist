@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "Begin:phpapi++.zend.h">
+      </ContextState>
+      <ContextState
+         contextName = "Obj:phpapi++.zend.h">
+      </ContextState>
+      <ContextState
+         contextName = "zend::arg::Info::set(std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const&amp;, std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt; const&amp;, unsigned char, bool, bool):phpapi++.zend.h">
+      </ContextState>
+      <ContextState
+         contextName = "basic_string [inlined]:string">
+      </ContextState>
+      <ContextState
+         contextName = "__cxx_global_var_init1:flwcore_scid.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "(zend::val::ztype)notifyClassAL_args[1].type_hint">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "flwcore::SCID::Inittable::interface_impl(_zend_class_entry*, _zend_class_entry*):flwcore_scid.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "__cxx_global_var_init:flwcore_classes.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "php::phpthing&lt;URIObjData&gt;::classdef::mkinstance(_zend_class_entry*):phpapi++.tmpl.h">
+         <PersistentStrings>
+            <PersistentString
+               value = "(std::__1::string)obj-&gt;cobj-&gt;url">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Info:phpapi++.zend.h">
+      </ContextState>
+      <ContextState
+         contextName = "__cxx_global_var_init12:flwcore_classes.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "~Info:phpapi++.zend.h">
+      </ContextState>
+      <ContextState
+         contextName = "function_entry:phpapi++.zend.h">
+      </ContextState>
+      <ContextState
+         contextName = "argInfo:phpapi++.zend.h">
+      </ContextState>
+      <ContextState
+         contextName = "get_key_strings(void*, int, __va_list_tag*, _zend_hash_key*):php_flwcore.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "__cxx_global_var_init15:flwcore_classes.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "OnUpdateStdString(_zend_ini_entry*, char*, unsigned int, void*, void*, void*, int):php_flwcore.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "(string *)p">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "flwcore::SCID::Core::callInitializers():flwcore_scid.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "_GLOBAL__I_a:flwcore_classes.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "__cxx_global_var_init17:flwcore_classes.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "zim_flwcore_Initting___scid_initialize(int, _zval_struct*, _zval_struct**, _zval_struct*, int):flwcore_classes.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "executor_globals">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "zm_startup_flwcoreURL(int, int):flwcore_uri.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "executor_globals">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "flwcore::SCID::Inittable::interface_impl(_zend_class_entry*, _zend_class_entry*):flwcore_classes.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "do_cli:(null)">
+      </ContextState>
+      <ContextState
+         contextName = "flwcore_statement_call(_zend_op_array*):php_flwcore.cpp">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
